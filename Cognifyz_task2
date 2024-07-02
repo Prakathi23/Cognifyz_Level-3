@@ -1,0 +1,178 @@
+A basic HTML template for a web page announcing the web developer internship opportunities at Cognifyz Technologies:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Internship Opportunities at Cognifyz Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+    </header>
+    <main>
+        <section class="introduction">
+            <h2>Join Our Team!</h2>
+            <p>Cognifyz Technologies is excited to announce internship opportunities for aspiring web developers. If you are passionate about technology and eager to learn, this is the perfect opportunity for you!</p>
+        </section>
+        <section class="details">
+            <h2>Internship Details</h2>
+            <ul>
+                <li>Position: Web Developer Intern</li>
+                <li>Location: Remote</li>
+                <li>Duration: 3-6 months</li>
+                <li>Start Date: Flexible</li>
+                <li>Stipend: Competitive</li>
+            </ul>
+        </section>
+        <section class="requirements">
+            <h2>Requirements</h2>
+            <ul>
+                <li>Basic understanding of HTML, CSS, and JavaScript</li>
+                <li>Strong problem-solving skills</li>
+                <li>Ability to work independently and as part of a team</li>
+                <li>Eagerness to learn and grow</li>
+            </ul>
+        </section>
+        <section class="apply">
+            <h2>How to Apply</h2>
+            <p>To apply for this internship, please send your resume and a cover letter to <a href="mailto:careers@cognifyz.com">careers@cognifyz.com</a>. We look forward to hearing from you!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cognifyz Technologies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+CSS (styles.css)
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1em;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+To create a contact information section in HTML.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Our Contact Information</h2>
+            <p>If you have any questions, feel free to reach out to us using the information below:</p>
+            <div class="contact-details">
+                <p><strong>Address:</strong></p>
+                <p>1234 Main Street</p>
+                <p>Anytown, AN 12345</p>
+                <br>
+                <p><strong>Phone:</strong></p>
+                <p>(123) 456-7890</p>
+                <br>
+                <p><strong>Email:</strong></p>
+                <p><a href="mailto:info@cognifyz.com">info@cognifyz.com</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cognifyz Technologies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+CSS (styles.css)
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2em;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-details p {
+    margin: 0.5em 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
