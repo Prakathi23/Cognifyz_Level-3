@@ -1,0 +1,76 @@
+ A simple image slideshow that automatically transitions between images using HTML and CSS.
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="https://via.placeholder.com/800x400/FF5733" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="https://via.placeholder.com/800x400/33FF57" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="https://via.placeholder.com/800x400/3357FF" alt="Slide 3">
+        </div>
+    </div>
+</body>
+</html>
+CSS (styles.css)
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0%, 100% {opacity: 0;}
+    33%, 67% {opacity: 1;}
+}
+
+.slideshow-container .slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slideshow-container .slide:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.slideshow-container .slide:nth-child(3) {
+    animation-delay: 10s;
+}
